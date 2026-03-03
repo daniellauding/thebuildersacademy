@@ -1,0 +1,23 @@
+{
+  "iterations": [
+    {
+      "iteration": 1,
+      "startedAt": "2026-03-03T18:05:30.571Z",
+      "endedAt": "2026-03-03T18:05:38.467Z",
+      "durationMs": 3818,
+      "agent": "claude-code",
+      "model": "anthropic/claude-sonnet-4",
+      "toolsUsed": {},
+      "filesModified": [],
+      "exitCode": 1,
+      "completionDetected": false,
+      "errors": []
+    }
+  ],
+  "totalDurationMs": 3818,
+  "struggleIndicators": {
+    "repeatedErrors": {},
+    "noProgressIterations": 1,
+    "shortIterations": 1
+  }
+}
