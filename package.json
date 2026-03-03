@@ -1,0 +1,27 @@
+{
+  "name": "thebuildersacademy",
+  "version": "1.0.0",
+  "description": "**Website:** https://thebuildersacademy.co.uk   **Platform:** Magento/Adobe Commerce   **Start:** 2026-03-03",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellauding/thebuildersacademy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daniellauding/thebuildersacademy/issues"
+  },
+  "homepage": "https://github.com/daniellauding/thebuildersacademy#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
