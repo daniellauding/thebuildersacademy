@@ -1,0 +1,227 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "Pejla" [ref=e7]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e12]: Pejla
+      - button "Menu" [ref=e14]:
+        - img
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+            - text: Mia
+          - generic:
+            - generic:
+              - img
+            - text: Alex
+          - generic:
+            - generic:
+              - img
+            - text: Sam
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - img [ref=e22]
+          - img [ref=e24]
+        - generic [ref=e26]:
+          - img [ref=e27]
+          - img [ref=e29]
+          - img [ref=e31]
+        - heading "Design feedback, Client reviews, Sound picks, Code reviews, Creative decisions, without the noise" [level=1] [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: Design feedback,
+            - generic [ref=e37]: Client reviews,
+            - generic [ref=e38]: Sound picks,
+            - generic [ref=e39]: Code reviews,
+            - generic [ref=e40]: Creative decisions,
+          - generic [ref=e41]: without the noise
+        - paragraph [ref=e43]: Share anything — designs, code, music, docs — and let people vote on what ships.
+        - generic [ref=e45]:
+          - button "Share something" [ref=e46]:
+            - text: Share something
+            - img
+          - link "How it works" [ref=e47]:
+            - /url: "#how-it-works"
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Recent
+            - generic [ref=e53]:
+              - button "Previous" [ref=e54]:
+                - img [ref=e55]
+              - button "Next" [ref=e57]:
+                - img [ref=e58]
+          - 'link "md text.md ```javascript const getUsers = async () => { try { const res = await fetch(\"/api/users\"); if (!res.ok) throw new Error(res.statusText); return await res.json(); } catch (err) { console.error(\"Failed:\", err); } }; ``` 0 votes Best way to fetch data in JavaScript? 3 options · daniellauding" [ref=e61]':
+            - /url: /poll/6d7da0c2
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]:
+                  - generic [ref=e65]: md
+                  - generic [ref=e66]: text.md
+                - generic [ref=e67]:
+                  - generic [ref=e68]: "```javascript"
+                  - generic [ref=e69]: "const getUsers = async () => {"
+                  - generic [ref=e70]: "try {"
+                  - generic [ref=e71]: const res = await fetch("/api/users");
+                  - generic [ref=e72]: if (!res.ok) throw new Error(res.statusText);
+                  - generic [ref=e73]: return await res.json();
+                  - generic [ref=e74]: "} catch (err) {"
+                  - generic [ref=e75]: console.error("Failed:", err);
+                  - generic [ref=e76]: "}"
+                  - generic [ref=e77]: "};"
+                  - generic [ref=e78]: "```"
+              - generic [ref=e81]: 0 votes
+            - generic [ref=e86]:
+              - heading "Best way to fetch data in JavaScript?" [level=3] [ref=e87]
+              - paragraph [ref=e88]: 3 options · daniellauding
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - paragraph [ref=e93]: “I prefer the first one” is not feedback.
+          - paragraph [ref=e94]: Pejla turns opinions into data.
+        - generic:
+          - paragraph: “Can you just make it pop more?”
+          - paragraph: Now they vote instead of vibe-checking.
+        - generic:
+          - paragraph: “Let’s circle back on the design.”
+          - paragraph: Or just share a poll and decide in minutes.
+        - generic:
+          - paragraph: “I sent it to the team on Slack.”
+          - paragraph: 17 replies later, still no decision.
+        - generic [ref=e95]:
+          - button "Quote 1" [ref=e96]
+          - button "Quote 2" [ref=e97]
+          - button "Quote 3" [ref=e98]
+          - button "Quote 4" [ref=e99]
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - heading "Recent" [level=2] [ref=e103]
+          - generic [ref=e104]:
+            - button "Previous" [ref=e105]:
+              - img [ref=e106]
+            - button "Next" [ref=e108]:
+              - img [ref=e109]
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]: md
+                - generic [ref=e116]: text.md
+              - generic [ref=e117]:
+                - generic [ref=e118]: "```javascript"
+                - generic [ref=e119]: "const getUsers = async () => {"
+                - generic [ref=e120]: "try {"
+                - generic [ref=e121]: const res = await fetch("/api/users");
+                - generic [ref=e122]: if (!res.ok) throw new Error(res.statusText);
+                - generic [ref=e123]: return await res.json();
+                - generic [ref=e124]: "} catch (err) {"
+                - generic [ref=e125]: console.error("Failed:", err);
+                - generic [ref=e126]: "}"
+                - generic [ref=e127]: "};"
+                - generic [ref=e128]: "```"
+                - generic [ref=e130]: "**Pros:** Built-in, no dependencies, simple"
+                - generic [ref=e131]: "**Cons:** No interceptors, no timeout, verbose error handling"
+            - generic [ref=e134]: 0 votes
+            - generic [ref=e135]:
+              - heading "Best way to fetch data in JavaScript?" [level=3] [ref=e136]
+              - paragraph [ref=e137]: 3 options · by daniellauding
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - generic [ref=e141]: md
+                - generic [ref=e142]: product-plan-design-system.md
+              - generic [ref=e143]:
+                - generic [ref=e144]: "# Product Plan: Design System v2"
+                - generic [ref=e146]: "## Why now"
+                - generic [ref=e147]: "- 3 squads shipping UI independently — visual inconsistency growing"
+                - generic [ref=e148]: "- Designers spend ~5h/week rebuilding components that already exist"
+                - generic [ref=e149]: "- Brand refresh coming Q3 — need a scalable foundation"
+                - generic [ref=e151]: "## Vision"
+                - generic [ref=e152]: One source of truth for UI across web, iOS, and Android. Designers grab from Figma library, devs grab from npm package. Same tokens, same components, sam
+            - generic [ref=e155]: 0 votes
+            - generic [ref=e156]:
+              - heading "Which brief should we prioritize?" [level=3] [ref=e157]
+              - paragraph [ref=e158]: 3 options · by daniellauding
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - img [ref=e164]
+              - img [ref=e169]
+            - generic [ref=e172]: 0 votes
+            - generic [ref=e173]:
+              - heading "Trying to figure out what song to release" [level=3] [ref=e174]
+              - paragraph [ref=e175]: 2 options · by daniellauding
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - button "Design 1" [ref=e178]
+            - button "Design 2" [ref=e179]
+            - button "Design 3" [ref=e180]
+            - button "Design 4" [ref=e181]
+          - link "View all" [ref=e182]:
+            - /url: /explore
+            - text: View all
+            - img [ref=e183]
+      - generic [ref=e186]:
+        - heading "Ready to pejla?" [level=2] [ref=e187]
+        - paragraph [ref=e188]: Free forever. Get your first feedback in 30 seconds.
+        - button "Share something" [ref=e189]:
+          - text: Share something
+          - img
+        - link "How it works" [ref=e191]:
+          - /url: "#how-it-works"
+      - generic [ref=e192]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - text: Step 1
+            - heading "Share your options" [level=2] [ref=e197]
+            - paragraph [ref=e198]: Upload designs, animations, sound clips, or any file. Paste a Figma, YouTube, or CodePen link. Compare iterations side by side — v1 vs v2 vs v3. Set visibility to public, unlisted, or private.
+          - generic [ref=e199]:
+            - img "Option A" [ref=e201]
+            - img "Option B" [ref=e203]
+        - generic [ref=e207]:
+          - generic [ref=e209]:
+            - generic [ref=e211]:
+              - generic [ref=e212]: Option A
+              - generic [ref=e213]: 0%
+            - generic [ref=e216]:
+              - generic [ref=e217]: Option B
+              - generic [ref=e218]: 0%
+            - generic [ref=e221]:
+              - generic [ref=e222]: Option C
+              - generic [ref=e223]: 0%
+          - generic [ref=e225]:
+            - text: Step 2
+            - heading "Collect votes" [level=2] [ref=e226]
+            - paragraph [ref=e227]: Share a link — anyone can vote with one tap, on any device. Enable anonymous voting for honest feedback. Protect sensitive polls with a password.
+        - generic [ref=e231]:
+          - generic [ref=e232]:
+            - text: Step 3
+            - heading "Decide with clarity" [level=2] [ref=e233]
+            - paragraph [ref=e234]: See results instantly — percentages, comments, and a clear winner. Remix any poll to explore new variations. No more "let's circle back" — just data.
+          - img [ref=e236]
+  - contentinfo [ref=e240]:
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - paragraph [ref=e244]: Pejla
+          - paragraph [ref=e245]: Swedish verb — to sound out, to gauge, to get a feel for something. Pejla is a tool for collecting clear, quantified design feedback. Share options, collect votes, make better decisions.
+        - generic [ref=e246]:
+          - link "About" [ref=e247]:
+            - /url: /about
+          - link "GitHub" [ref=e248]:
+            - /url: https://github.com/daniellauding
+          - link "daniellauding.se" [ref=e249]:
+            - /url: https://daniellauding.se
+          - link "Contact" [ref=e250]:
+            - /url: mailto:daniel@lauding.se
+      - generic [ref=e251]:
+        - paragraph [ref=e252]: Made by Daniel Lauding · Technigo 2026
+        - paragraph [ref=e253]: Built with React, Node.js, MongoDB
+  - region "Notifications alt+T"
+```

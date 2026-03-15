@@ -1,0 +1,11 @@
+{
+  "name": "The Builders Academy Wireframes",
+  "description": "Create Pencil wireframes for homepage and product page",
+  "customInstructions": [
+    "Read ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/01-Projects/The Builders Academy/TBA-PENCIL-PROTOTYPE-PROMPT.md",
+    "Follow all instructions exactly",
+    "Create desktop and mobile wireframes using Pencil app",
+    "Export PNG and PDF when done",
+    "Use existing design system in builders-academy-design-system/ for reference"
+  ]
+}

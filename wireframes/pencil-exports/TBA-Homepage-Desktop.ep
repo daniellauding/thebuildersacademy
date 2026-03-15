@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil" xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Properties>
+    <Property name="documentName" type="String" xml:space="preserve">TBA Homepage - Desktop</Property>
+    <Property name="width" type="Dimension">1440px</Property>
+    <Property name="height" type="Dimension">3000px</Property>
+    <Property name="dimBackground" type="Color">#FFFFFFFF</Property>
+    <Property name="showGrid" type="Bool">false</Property>
+  </Properties>
+  <Pages>
+    <Page name="Homepage" id="homepage_page">
+      <Properties>
+        <Property name="name" type="String" xml:space="preserve">Homepage</Property>
+        <Property name="width" type="Dimension">1440px</Property>
+        <Property name="height" type="Dimension">3000px</Property>
+        <Property name="dimBackground" type="Color">#F5F5F5FF</Property>
+      </Properties>
+      <Content>
+        <!-- HEADER / NAVIGATION -->
+        <g id="header_container" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <p:metadata>
+            <p:property name="box"><![CDATA[1440,80]]></p:property>
+            <p:property name="withBlur"><![CDATA[false]]></p:property>
+            <p:property name="radius"><![CDATA[0,0]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#E5E5E5FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+          </p:metadata>
+          <rect width="1440" height="80" x="0" y="0" rx="0" ry="0" 
+                style="fill: #FFFFFF; stroke: #E5E5E5; stroke-width: 1;"/>
+        </g>
+        
+        <!-- LOGO -->
+        <g id="logo_text" p:type="Shape" p:def="Evolus.Common:PlainText" p:sc="Text">
+          <p:metadata>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="width"><![CDATA[300,0]]></p:property>
+            <p:property name="fixedWidth"><![CDATA[false]]></p:property>
+            <p:property name="label"><![CDATA[The Builders Academy]]></p:property>
+            <p:property name="textColor"><![CDATA[#1A1A1AFF]]></p:property>
+            <p:property name="textFont"><![CDATA[Inter|bold|24px|normal]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <text x="40" y="50" style="fill: #1A1A1A; font-family: Inter; font-weight: bold; font-size: 24px;">
+            The Builders Academy
+          </text>
+        </g>
+        
+        <!-- NAV MENU -->
+        <g id="nav_menu" p:type="Shape" p:def="Evolus.Common:PlainText" p:sc="Text">
+          <text x="900" y="50" style="fill: #666666; font-family: Inter; font-size: 16px;">
+            Courses
+          </text>
+          <text x="1000" y="50" style="fill: #666666; font-family: Inter; font-size: 16px;">
+            For Employers
+          </text>
+          <text x="1140" y="50" style="fill: #666666; font-family: Inter; font-size: 16px;">
+            About Us
+          </text>
+          <text x="1250" y="50" style="fill: #0066CC; font-family: Inter; font-weight: 600; font-size: 16px;">
+            Login / Register
+          </text>
+        </g>
+        
+        <!-- HERO SECTION -->
+        <g id="hero_container" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="1440" height="600" x="0" y="80" rx="0" ry="0" 
+                style="fill: #F5F5F5; stroke: none;"/>
+        </g>
+        
+        <!-- HERO HEADLINE -->
+        <g id="hero_headline" p:type="Shape" p:def="Evolus.Common:PlainText" p:sc="Text">
+          <text x="120" y="250" style="fill: #1A1A1A; font-family: Inter; font-weight: bold; font-size: 48px; text-anchor: start;">
+            <tspan x="120" dy="0">Start Your Construction</tspan>
+            <tspan x="120" dy="60">Career Today</tspan>
+          </text>
+        </g>
+        
+        <!-- HERO SUBTEXT -->
+        <g id="hero_subtext" p:type="Shape" p:def="Evolus.Common:PlainText" p:sc="Text">
+          <text x="120" y="400" style="fill: #666666; font-family: Inter; font-size: 18px; max-width: 600px;">
+            <tspan x="120" dy="0">Industry-recognised training for scaffolders,</tspan>
+            <tspan x="120" dy="30">bricklayers, plasterers, and more.</tspan>
+          </text>
+        </g>
+        
+        <!-- PRIMARY CTA BUTTON -->
+        <g id="primary_cta" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="200" height="50" x="120" y="480" rx="4" ry="4" 
+                style="fill: #0066CC; stroke: none;"/>
+          <text x="220" y="510" style="fill: #FFFFFF; font-family: Inter; font-weight: 600; font-size: 16px; text-anchor: middle;">
+            Browse All Courses →
+          </text>
+        </g>
+        
+        <!-- SECONDARY CTA BUTTON -->
+        <g id="secondary_cta" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="200" height="50" x="340" y="480" rx="4" ry="4" 
+                style="fill: #FF6B00; stroke: none;"/>
+          <text x="440" y="510" style="fill: #FFFFFF; font-family: Inter; font-weight: 600; font-size: 16px; text-anchor: middle;">
+            For Employers →
+          </text>
+        </g>
+        
+        <!-- HERO IMAGE PLACEHOLDER -->
+        <g id="hero_image" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="600" height="400" x="700" y="180" rx="8" ry="8" 
+                style="fill: #E5E5E5; stroke: #CCCCCC; stroke-width: 2; stroke-dasharray: 5,5;"/>
+          <text x="1000" y="380" style="fill: #999999; font-family: Inter; font-size: 14px; text-anchor: middle;">
+            Hero Image: Construction workers on site
+          </text>
+        </g>
+        
+        <!-- COURSE CATEGORIES SECTION -->
+        <g id="section_heading" p:type="Shape" p:def="Evolus.Common:PlainText" p:sc="Text">
+          <text x="120" y="760" style="fill: #1A1A1A; font-family: Inter; font-weight: bold; font-size: 32px;">
+            Popular Training Courses
+          </text>
+        </g>
+        
+        <!-- COURSE CARD 1: SCAFFOLDING -->
+        <g id="course_card_1" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="400" height="300" x="120" y="820" rx="8" ry="8" 
+                style="fill: #FFFFFF; stroke: #E5E5E5; stroke-width: 1;"/>
+          <!-- Icon placeholder -->
+          <rect width="64" height="64" x="168" y="860" rx="8" ry="8" 
+                style="fill: #0066CC20; stroke: #0066CC; stroke-width: 2;"/>
+          <text x="200" y="900" style="fill: #0066CC; font-family: Inter; font-weight: bold; font-size: 24px; text-anchor: middle;">
+            🏗️
+          </text>
+          <!-- Course title -->
+          <text x="320" y="940" style="fill: #1A1A1A; font-family: Inter; font-weight: bold; font-size: 20px; text-anchor: middle;">
+            CISRS Basic Scaffolding
+          </text>
+          <!-- Details -->
+          <text x="320" y="970" style="fill: #666666; font-family: Inter; font-size: 16px; text-anchor: middle;">
+            5 days • £650
+          </text>
+          <!-- CTA Button -->
+          <rect width="160" height="40" x="240" y="1020" rx="4" ry="4" 
+                style="fill: transparent; stroke: #0066CC; stroke-width: 2;"/>
+          <text x="320" y="1045" style="fill: #0066CC; font-family: Inter; font-weight: 600; font-size: 14px; text-anchor: middle;">
+            View Details →
+          </text>
+        </g>
+        
+        <!-- COURSE CARD 2: BRICKLAYING -->
+        <g id="course_card_2" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="400" height="300" x="540" y="820" rx="8" ry="8" 
+                style="fill: #FFFFFF; stroke: #E5E5E5; stroke-width: 1;"/>
+          <rect width="64" height="64" x="588" y="860" rx="8" ry="8" 
+                style="fill: #FF6B0020; stroke: #FF6B00; stroke-width: 2;"/>
+          <text x="620" y="900" style="fill: #FF6B00; font-family: Inter; font-weight: bold; font-size: 24px; text-anchor: middle;">
+            🧱
+          </text>
+          <text x="740" y="940" style="fill: #1A1A1A; font-family: Inter; font-weight: bold; font-size: 20px; text-anchor: middle;">
+            NVQ Level 2 Bricklaying
+          </text>
+          <text x="740" y="970" style="fill: #666666; font-family: Inter; font-size: 16px; text-anchor: middle;">
+            12 weeks • £1,200
+          </text>
+          <rect width="160" height="40" x="660" y="1020" rx="4" ry="4" 
+                style="fill: transparent; stroke: #FF6B00; stroke-width: 2;"/>
+          <text x="740" y="1045" style="fill: #FF6B00; font-family: Inter; font-weight: 600; font-size: 14px; text-anchor: middle;">
+            View Details →
+          </text>
+        </g>
+        
+        <!-- COURSE CARD 3: PLASTERING -->
+        <g id="course_card_3" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="400" height="300" x="960" y="820" rx="8" ry="8" 
+                style="fill: #FFFFFF; stroke: #E5E5E5; stroke-width: 1;"/>
+          <rect width="64" height="64" x="1008" y="860" rx="8" ry="8" 
+                style="fill: #00A65120; stroke: #00A651; stroke-width: 2;"/>
+          <text x="1040" y="900" style="fill: #00A651; font-family: Inter; font-weight: bold; font-size: 24px; text-anchor: middle;">
+            🪛
+          </text>
+          <text x="1160" y="940" style="fill: #1A1A1A; font-family: Inter; font-weight: bold; font-size: 20px; text-anchor: middle;">
+            City &amp; Guilds Plastering
+          </text>
+          <text x="1160" y="970" style="fill: #666666; font-family: Inter; font-size: 16px; text-anchor: middle;">
+            8 weeks • £950
+          </text>
+          <rect width="160" height="40" x="1080" y="1020" rx="4" ry="4" 
+                style="fill: transparent; stroke: #00A651; stroke-width: 2;"/>
+          <text x="1160" y="1045" style="fill: #00A651; font-family: Inter; font-weight: 600; font-size: 14px; text-anchor: middle;">
+            View Details →
+          </text>
+        </g>
+        
+        <!-- VIEW ALL LINK -->
+        <text x="720" y="1180" style="fill: #0066CC; font-family: Inter; font-weight: 600; font-size: 18px; text-anchor: middle; text-decoration: underline;">
+          View All 120+ Courses →
+        </text>
+        
+        <!-- FOOTER PLACEHOLDER -->
+        <g id="footer" p:type="Shape" p:def="Evolus.Common:RoundedRect" p:sc="Basic">
+          <rect width="1440" height="400" x="0" y="2600" rx="0" ry="0" 
+                style="fill: #1A1A1A; stroke: none;"/>
+          <text x="720" y="2800" style="fill: #FFFFFF; font-family: Inter; font-size: 16px; text-anchor: middle;">
+            Footer Section (Logo + Links + Social)
+          </text>
+        </g>
+        
+      </Content>
+    </Page>
+  </Pages>
+</Document>

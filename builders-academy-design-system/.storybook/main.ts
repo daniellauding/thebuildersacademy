@@ -15,6 +15,21 @@ const config: StorybookConfig = {
   "framework": "@storybook/nextjs-vite",
   "staticDirs": [
     "../public"
-  ]
+  ],
+  async viteFinal(config) {
+    return {
+      ...config,
+      server: {
+        ...config.server,
+        host: '0.0.0.0',
+        strictPort: false,
+        allowedHosts: [
+          'claudebot.taild61ab7.ts.net',
+          'localhost',
+          '.ts.net',
+        ],
+      },
+    };
+  },
 };
 export default config;

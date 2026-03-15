@@ -26,7 +26,7 @@
   --color-ring: var(--ring);
 
   /* Semantic colors */
-  --color-success: #16A34A;
+  --color-success: #00A651;
   --color-warning: #F59E0B;
   --color-error: #DC2626;
   --color-info: #3B82F6;
@@ -104,12 +104,12 @@
 :root {
   --radius: 0.5rem;
 
-  /* Brand: Dark Blue */
-  --primary: #1F396D;
+  /* Brand: Trust Blue */
+  --primary: #0066CC;
   --primary-foreground: #FFFFFF;
 
-  /* Brand: Construction Green */
-  --secondary: #16A34A;
+  /* Brand: Construction Orange */
+  --secondary: #FF6B00;
   --secondary-foreground: #FFFFFF;
 
   /* Surfaces */
@@ -134,11 +134,11 @@
   /* Borders */
   --border: #E2E8F0;
   --input: #E2E8F0;
-  --ring: #1F396D;
+  --ring: #0066CC;
 
   /* Chart colors */
-  --chart-1: #1F396D;
-  --chart-2: #16A34A;
+  --chart-1: #0066CC;
+  --chart-2: #00A651;
   --chart-3: #F59E0B;
   --chart-4: #3B82F6;
   --chart-5: #8B5CF6;
@@ -146,12 +146,12 @@
   /* Sidebar */
   --sidebar: #F8FAFC;
   --sidebar-foreground: #334155;
-  --sidebar-primary: #1F396D;
+  --sidebar-primary: #0066CC;
   --sidebar-primary-foreground: #FFFFFF;
   --sidebar-accent: #E1F1EA;
   --sidebar-accent-foreground: #334155;
   --sidebar-border: #E2E8F0;
-  --sidebar-ring: #1F396D;
+  --sidebar-ring: #0066CC;
 }
 
 /* Keyframes */

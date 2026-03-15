@@ -2,18 +2,18 @@
 // These mirror the CSS custom properties defined in globals.css
 
 export const BRAND_COLORS = {
-  primary: "#1F396D",
-  secondary: "#16A34A",
+  primary: "#0066CC",
+  secondary: "#FF6B00",
   background: "#FFFFFF",
-  foreground: "#334155",
-  muted: "#F8FAFC",
-  mutedForeground: "#475569",
+  foreground: "#1A1A1A",
+  muted: "#F5F5F5",
+  mutedForeground: "#666666",
   accent: "#E1F1EA",
   border: "#E2E8F0",
 } as const
 
 export const SEMANTIC_COLORS = {
-  success: "#16A34A",
+  success: "#00A651",
   warning: "#F59E0B",
   error: "#DC2626",
   info: "#3B82F6",
