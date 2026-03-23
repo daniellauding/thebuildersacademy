@@ -33,19 +33,19 @@ const slides = [
         <div className="grid grid-cols-2 gap-6">
           <div className="bg-red-50 border border-red-200 rounded-lg p-6">
             <h3 className="text-xl font-bold text-red-900 mb-3">🚨 Trust is Buried</h3>
-            <p className="text-gray-700">Accreditations hidden in footer. Competitors lead with CSCS, CITB logos.</p>
+            <p className="text-gray-700">Accreditations hidden in footer.</p>
           </div>
           <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-orange-900 mb-3">⚠️ No B2B Pathway</h3>
-            <p className="text-gray-700">Employers can't find workforce solutions. Missing dedicated employer section.</p>
+            <h3 className="text-xl font-bold text-orange-900 mb-3">🎨 Outdated Visual Design</h3>
+            <p className="text-gray-700">Old styling, needs modernizing.</p>
           </div>
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-yellow-900 mb-3">🔍 109+ Navigation Links</h3>
-            <p className="text-gray-700">Cognitive overload. Users can't find relevant courses quickly.</p>
+            <h3 className="text-xl font-bold text-yellow-900 mb-3">📊 Poor Content Hierarchy</h3>
+            <p className="text-gray-700">Important info hard to find.</p>
           </div>
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-blue-900 mb-3">💳 Checkout Friction</h3>
-            <p className="text-gray-700">4-step process. Manual entry of employer details creates abandonment.</p>
+            <h3 className="text-xl font-bold text-blue-900 mb-3">🎯 No Clear Call-to-Action</h3>
+            <p className="text-gray-700">Hero lacks obvious next step.</p>
           </div>
         </div>
         <p className="text-sm text-gray-500 text-center">Source: UX Heuristics, Content Audit, Competitive Benchmark</p>
@@ -59,37 +59,33 @@ const slides = [
     type: 'content',
     content: (
       <div className="space-y-6">
-        <div className="grid grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-2 gap-4 mb-8">
           <div className="text-center">
             <div className="text-3xl font-bold text-green-600">High Impact</div>
             <div className="text-sm text-gray-500">Quick Wins</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-blue-600">Medium Impact</div>
-            <div className="text-sm text-gray-500">Strategic Investments</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-gray-600">Low Impact</div>
-            <div className="text-sm text-gray-500">Deprioritize</div>
+            <div className="text-sm text-gray-500">Next Steps</div>
           </div>
         </div>
         
         <div className="space-y-4">
           <div className="bg-green-50 border-l-4 border-green-500 p-4">
-            <h4 className="font-bold text-green-900">P0: Trust-First Hero (High Impact, Low Effort)</h4>
-            <p className="text-sm text-gray-700">Move accreditations above fold → Instant credibility boost</p>
+            <h4 className="font-bold text-green-900">P0: Trust-First Hero</h4>
+            <p className="text-sm text-gray-700">Move accreditations above fold</p>
           </div>
           <div className="bg-green-50 border-l-4 border-green-500 p-4">
-            <h4 className="font-bold text-green-900">P0: Dedicated Employer Section (High Impact, Medium Effort)</h4>
-            <p className="text-sm text-gray-700">B2B pathway → Unlock 40% revenue potential</p>
+            <h4 className="font-bold text-green-900">P0: Visual Refresh</h4>
+            <p className="text-sm text-gray-700">Modern colors, typography, spacing</p>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
-            <h4 className="font-bold text-blue-900">P1: Smart Discovery (Medium Impact, Low Effort)</h4>
-            <p className="text-sm text-gray-700">Search + filters → Reduce 109 links to 3 categories</p>
+            <h4 className="font-bold text-blue-900">P1: Smart Navigation</h4>
+            <p className="text-sm text-gray-700">Reduce 109 links to 3 categories</p>
           </div>
-          <div className="bg-gray-50 border-l-4 border-gray-400 p-4">
-            <h4 className="font-bold text-gray-900">P2: Finance Simplification (Medium Impact, High Effort)</h4>
-            <p className="text-sm text-gray-700">Requires Magento backend changes</p>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
+            <h4 className="font-bold text-blue-900">P1: Mobile Optimization</h4>
+            <p className="text-sm text-gray-700">Responsive grid, better UX</p>
           </div>
         </div>
       </div>
@@ -107,20 +103,18 @@ const slides = [
             <div className="text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-bold text-blue-900 mb-3">Trust First</h3>
             <ul className="space-y-2 text-sm text-gray-700">
-              <li>• Accreditations hero</li>
-              <li>• Success stats visible</li>
-              <li>• Instructor credentials</li>
-              <li>• Student testimonials</li>
+              <li>• Show accreditations up front</li>
+              <li>• Clear success stats</li>
+              <li>• Social proof visible</li>
             </ul>
           </div>
           <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
-            <div className="text-4xl mb-4">🏢</div>
-            <h3 className="text-xl font-bold text-orange-900 mb-3">B2B Revenue</h3>
+            <div className="text-4xl mb-4">🎨</div>
+            <h3 className="text-xl font-bold text-orange-900 mb-3">Modern Design</h3>
             <ul className="space-y-2 text-sm text-gray-700">
-              <li>• Dedicated employer page</li>
-              <li>• Team pricing tiers</li>
-              <li>• Case studies</li>
-              <li>• Compliance benefits</li>
+              <li>• Clean, fresh styling</li>
+              <li>• Better typography</li>
+              <li>• Mobile-first layout</li>
             </ul>
           </div>
           <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
@@ -128,15 +122,14 @@ const slides = [
             <h3 className="text-xl font-bold text-green-900 mb-3">Smart Discovery</h3>
             <ul className="space-y-2 text-sm text-gray-700">
               <li>• Search bar prominent</li>
-              <li>• 3 main categories</li>
-              <li>• Course filters</li>
-              <li>• Personalized quiz</li>
+              <li>• Clear categories</li>
+              <li>• Easy navigation</li>
             </ul>
           </div>
         </div>
         <div className="bg-gray-100 rounded-lg p-6 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            Goal: +100% conversion rate by reducing friction and building trust
+            Goal: Better UX, easier course discovery, modern look
           </p>
         </div>
       </div>
@@ -251,19 +244,18 @@ const slides = [
               <ul className="space-y-1 text-gray-700">
                 <li>• 15+ course categories</li>
                 <li>• 50+ individual courses</li>
-                <li>• 20+ informational pages</li>
-                <li>• Scattered employer info</li>
-                <li>• Hidden accreditations</li>
+                <li>• 20+ info pages</li>
+                <li>• Hard to find what you need</li>
               </ul>
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-bold text-green-600 mb-4">✅ After (3 main paths)</h3>
+            <h3 className="text-lg font-bold text-green-600 mb-4">✅ After (3 categories)</h3>
             <div className="bg-green-50 border border-green-200 rounded p-4 text-sm">
               <ul className="space-y-2 text-gray-700">
-                <li><strong>1. For Workers</strong> → Course search + quiz</li>
-                <li><strong>2. For Employers</strong> → Team training + case studies</li>
-                <li><strong>3. Quick Actions</strong> → Book course, Contact, Login</li>
+                <li><strong>1. Courses</strong> → Search + browse by type</li>
+                <li><strong>2. About</strong> → Who we are, accreditations</li>
+                <li><strong>3. Book</strong> → Quick CTA, contact</li>
               </ul>
               <div className="mt-4 pt-4 border-t border-green-300">
                 <p className="font-semibold">Search bar handles all courses</p>
@@ -273,7 +265,7 @@ const slides = [
         </div>
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
           <p className="text-sm text-gray-700">
-            <strong>Result:</strong> 96% reduction in top-level nav items. Users find courses in 2 clicks vs 5+.
+            <strong>Result:</strong> Users find courses in 2 clicks instead of 5+
           </p>
         </div>
       </div>
@@ -389,56 +381,40 @@ const slides = [
   {
     id: 10,
     title: 'Implementation Roadmap',
-    subtitle: '4 Phases Over 8 Weeks',
+    subtitle: '2 Phases Over 4 Weeks',
     type: 'content',
     content: (
       <div className="space-y-4">
-        <div className="grid grid-cols-4 gap-4">
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
-            <div className="text-2xl font-bold text-blue-900 mb-2">Phase 1</div>
-            <div className="text-sm font-semibold mb-2">Week 1-2</div>
-            <ul className="space-y-1 text-xs text-gray-700">
-              <li>• Design system finalization</li>
+        <div className="grid grid-cols-2 gap-6">
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded">
+            <div className="text-3xl font-bold text-blue-900 mb-3">Phase 1</div>
+            <div className="text-sm font-semibold mb-4">Week 1-2</div>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li>• Design system setup</li>
+              <li>• Homepage variants (A, B, C)</li>
               <li>• Component library</li>
-              <li>• Style guide docs</li>
+              <li>• Navigation structure</li>
             </ul>
           </div>
-          <div className="bg-green-50 border-l-4 border-green-600 p-4 rounded">
-            <div className="text-2xl font-bold text-green-900 mb-2">Phase 2</div>
-            <div className="text-sm font-semibold mb-2">Week 3-4</div>
-            <ul className="space-y-1 text-xs text-gray-700">
-              <li>• Homepage variants</li>
-              <li>• Employer section</li>
-              <li>• Course discovery</li>
-            </ul>
-          </div>
-          <div className="bg-orange-50 border-l-4 border-orange-600 p-4 rounded">
-            <div className="text-2xl font-bold text-orange-900 mb-2">Phase 3</div>
-            <div className="text-sm font-semibold mb-2">Week 5-6</div>
-            <ul className="space-y-1 text-xs text-gray-700">
-              <li>• Product pages</li>
-              <li>• Checkout flow</li>
+          <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded">
+            <div className="text-3xl font-bold text-green-900 mb-3">Phase 2</div>
+            <div className="text-sm font-semibold mb-4">Week 3-4</div>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li>• Course pages</li>
               <li>• Mobile optimization</li>
-            </ul>
-          </div>
-          <div className="bg-purple-50 border-l-4 border-purple-600 p-4 rounded">
-            <div className="text-2xl font-bold text-purple-900 mb-2">Phase 4</div>
-            <div className="text-sm font-semibold mb-2">Week 7-8</div>
-            <ul className="space-y-1 text-xs text-gray-700">
-              <li>• A/B testing</li>
-              <li>• Analytics setup</li>
-              <li>• Launch & monitor</li>
+              <li>• Testing & refinement</li>
+              <li>• Launch preparation</li>
             </ul>
           </div>
         </div>
         <div className="bg-gray-100 rounded-lg p-6">
-          <h3 className="text-lg font-bold text-gray-900 mb-3">Deliverables Per Phase</h3>
+          <h3 className="text-lg font-bold text-gray-900 mb-3">Deliverables</h3>
           <div className="grid grid-cols-2 gap-4 text-sm">
             <div>
-              <strong>Design:</strong> Figma components, prototypes, design specs
+              <strong>Design:</strong> Figma prototypes, style guide, component specs
             </div>
             <div>
-              <strong>Development:</strong> React components, Magento integration, documentation
+              <strong>Development:</strong> HTML/CSS templates, responsive layout, documentation
             </div>
           </div>
         </div>
@@ -448,44 +424,44 @@ const slides = [
   {
     id: 11,
     title: 'Recommendation',
-    subtitle: 'Story-First + B2B Focus',
+    subtitle: 'Story-First Design',
     type: 'content',
     content: (
       <div className="space-y-8">
         <div className="bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-300 rounded-xl p-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">🏆 Primary Recommendation</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">🏆 Recommended Approach</h2>
           <div className="space-y-4">
             <div className="flex items-start gap-4">
               <div className="text-3xl">✅</div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900">Variant C: Story-First Hero</h3>
-                <p className="text-gray-700">Human-first approach with instructor profiles and student testimonials. Unique differentiation — no UK competitor uses this.</p>
+                <p className="text-gray-700">Show real people — instructors and students. Makes it personal.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="text-3xl">✅</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900">Dedicated Employer Section</h3>
-                <p className="text-gray-700">B2B landing page with team pricing, case studies, compliance benefits. Unlocks 40% revenue potential.</p>
+                <h3 className="text-xl font-bold text-gray-900">Modern Visual Design</h3>
+                <p className="text-gray-700">Clean colors, better typography, mobile-first.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="text-3xl">✅</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900">Smart Course Discovery</h3>
-                <p className="text-gray-700">Prominent search + interactive quiz. Reduces navigation from 109 links to 3 main paths.</p>
+                <h3 className="text-xl font-bold text-gray-900">Simple Navigation</h3>
+                <p className="text-gray-700">3 main sections, search bar prominent, easy to use.</p>
               </div>
             </div>
           </div>
         </div>
         <div className="grid grid-cols-3 gap-4 text-center">
           <div className="bg-blue-100 rounded-lg p-4">
-            <div className="text-3xl font-bold text-blue-900">+100%</div>
-            <div className="text-sm text-gray-700">Conversion Rate Target</div>
+            <div className="text-3xl font-bold text-blue-900">Better UX</div>
+            <div className="text-sm text-gray-700">Easier to navigate</div>
           </div>
           <div className="bg-green-100 rounded-lg p-4">
-            <div className="text-3xl font-bold text-green-900">8 weeks</div>
-            <div className="text-sm text-gray-700">Full Implementation</div>
+            <div className="text-3xl font-bold text-green-900">4 weeks</div>
+            <div className="text-sm text-gray-700">Design + Build</div>
           </div>
           <div className="bg-orange-100 rounded-lg p-4">
             <div className="text-3xl font-bold text-orange-900">7 pages</div>
