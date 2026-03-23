@@ -33,7 +33,7 @@ const slides = [
         <div className="grid grid-cols-2 gap-6">
           <div className="bg-red-50 border border-red-200 rounded-lg p-6">
             <h3 className="text-xl font-bold text-red-900 mb-3">🚨 Trust is Buried</h3>
-            <p className="text-gray-700">Accreditations hidden in footer.</p>
+            <p className="text-gray-700">Logos and certifications hidden at bottom.</p>
           </div>
           <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
             <h3 className="text-xl font-bold text-orange-900 mb-3">🎨 Outdated Visual Design</h3>
@@ -54,38 +54,27 @@ const slides = [
   },
   {
     id: 3,
-    title: 'Opportunity Matrix',
-    subtitle: 'Impact vs Effort Priorities',
+    title: 'Priorities',
+    subtitle: 'What We Focus On',
     type: 'content',
     content: (
       <div className="space-y-6">
-        <div className="grid grid-cols-2 gap-4 mb-8">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-green-600">High Impact</div>
-            <div className="text-sm text-gray-500">Quick Wins</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">Medium Impact</div>
-            <div className="text-sm text-gray-500">Next Steps</div>
-          </div>
-        </div>
-        
         <div className="space-y-4">
-          <div className="bg-green-50 border-l-4 border-green-500 p-4">
-            <h4 className="font-bold text-green-900">P0: Trust-First Hero</h4>
-            <p className="text-sm text-gray-700">Move accreditations above fold</p>
+          <div className="bg-green-50 border-l-4 border-green-500 p-5">
+            <h4 className="font-bold text-green-900 text-lg mb-2">Show Trust Up Front</h4>
+            <p className="text-gray-700">Put logos and certifications at top of page</p>
           </div>
-          <div className="bg-green-50 border-l-4 border-green-500 p-4">
-            <h4 className="font-bold text-green-900">P0: Visual Refresh</h4>
-            <p className="text-sm text-gray-700">Modern colors, typography, spacing</p>
+          <div className="bg-green-50 border-l-4 border-green-500 p-5">
+            <h4 className="font-bold text-green-900 text-lg mb-2">Refresh the Design</h4>
+            <p className="text-gray-700">Modern look with better colors and spacing</p>
           </div>
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
-            <h4 className="font-bold text-blue-900">P1: Smart Navigation</h4>
-            <p className="text-sm text-gray-700">Reduce 109 links to 3 categories</p>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-5">
+            <h4 className="font-bold text-blue-900 text-lg mb-2">Simplify Navigation</h4>
+            <p className="text-gray-700">Make it easier to find courses</p>
           </div>
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
-            <h4 className="font-bold text-blue-900">P1: Mobile Optimization</h4>
-            <p className="text-sm text-gray-700">Responsive grid, better UX</p>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-5">
+            <h4 className="font-bold text-blue-900 text-lg mb-2">Fix Mobile Experience</h4>
+            <p className="text-gray-700">Make it work better on phones</p>
           </div>
         </div>
       </div>
