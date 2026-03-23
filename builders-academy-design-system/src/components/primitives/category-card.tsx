@@ -1,21 +1,15 @@
 import { cn } from "@/lib/utils"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { BookOpen, Shield, Building2 } from "lucide-react"
+import { BookOpen, type LucideIcon } from "lucide-react"
 
 interface CategoryCardProps {
   title: string
   subtitle?: string
   priceFrom?: number
   cta?: string
-  icon?: "cscs" | "safety" | "employer"
+  icon?: LucideIcon
   className?: string
-}
-
-const ICON_MAP = {
-  cscs: BookOpen,
-  safety: Shield,
-  employer: Building2,
 }
 
 export function CategoryCard({
@@ -23,10 +17,9 @@ export function CategoryCard({
   subtitle,
   priceFrom,
   cta,
-  icon = "cscs",
+  icon: Icon = BookOpen,
   className,
 }: CategoryCardProps) {
-  const Icon = ICON_MAP[icon]
 
   return (
     <Card
